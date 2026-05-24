@@ -5564,16 +5564,6 @@
 		)
 		(uuid "2503607f-563e-4253-8022-7d65298957f0")
 	)
-	(text "Digikey pigtail:\n455-3711-ND"
-		(exclude_from_sim no)
-		(at 259.588 76.073 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "25b869ff-592b-435d-be81-b8509e24dd26")
-	)
 	(text "5V to 3.3V LDO"
 		(exclude_from_sim no)
 		(at 40.386 159.512 0)
@@ -13727,7 +13717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SM05B-SRSS-TB(LF)(SN)"
+		(property "Value" "S5B-PH-SM4-TB(LF)(SN)"
 			(at 252.73 70.4849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13738,7 +13728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S5B-PH-SM4-TB_1x05-1MP_P2.00mm_Horizontal"
 			(at 249.555 69.215 0)
 			(hide yes)
 			(show_name no)
@@ -13771,7 +13761,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C136657"
+		(property "LCSC" "C265104"
 			(at 249.555 69.215 0)
 			(hide yes)
 			(show_name no)
