@@ -5536,7 +5536,7 @@
 	)
 	(text "UP Button"
 		(exclude_from_sim no)
-		(at 89.154 158.75 0)
+		(at 88.9 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5546,7 +5546,7 @@
 	)
 	(text "2.54mm Headers to \nHS HS13L03W2C01 OLED"
 		(exclude_from_sim no)
-		(at 186.944 105.664 0)
+		(at 186.69 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5566,7 +5566,7 @@
 	)
 	(text "5V to 3.3V LDO"
 		(exclude_from_sim no)
-		(at 40.386 159.512 0)
+		(at 40.64 159.385 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5576,7 +5576,7 @@
 	)
 	(text "Pin 1: Pressure Sensor 5V IN\nPin 2: Pressure Sensor SIG OUT\nPin 3: Pressure Sensor GND\nPin 4: SSR EN HIGH\nPin 5: SSR EN LOW"
 		(exclude_from_sim no)
-		(at 246.126 56.007 0)
+		(at 246.38 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5587,7 +5587,7 @@
 	)
 	(text "5V TVS"
 		(exclude_from_sim no)
-		(at 232.918 148.844 0)
+		(at 233.045 148.59 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5597,7 +5597,7 @@
 	)
 	(text "DOWN Button"
 		(exclude_from_sim no)
-		(at 139.446 160.02 0)
+		(at 139.7 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5607,7 +5607,7 @@
 	)
 	(text "Programming/debug"
 		(exclude_from_sim no)
-		(at 243.332 112.522 0)
+		(at 243.205 112.395 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5617,7 +5617,7 @@
 	)
 	(text "In case TX/RX are swapped"
 		(exclude_from_sim no)
-		(at 266.192 157.226 0)
+		(at 266.065 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5627,7 +5627,7 @@
 	)
 	(text "5V TVS"
 		(exclude_from_sim no)
-		(at 168.148 64.897 0)
+		(at 168.275 64.77 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5637,7 +5637,7 @@
 	)
 	(text "4mm Standoffs for OLED"
 		(exclude_from_sim no)
-		(at 192.532 15.24 0)
+		(at 192.405 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5647,7 +5647,7 @@
 	)
 	(text "Low side switch for SSR drive"
 		(exclude_from_sim no)
-		(at 265.303 96.52 0)
+		(at 265.43 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5657,7 +5657,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 55.118 15.748 0)
+		(at 55.245 15.875 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5667,7 +5667,7 @@
 	)
 	(text "EEPROM"
 		(exclude_from_sim no)
-		(at 143.002 103.124 0)
+		(at 142.875 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5677,7 +5677,7 @@
 	)
 	(text "Programmer:\nSTLINK-V3MINIE"
 		(exclude_from_sim no)
-		(at 243.84 116.332 0)
+		(at 243.84 116.205 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5687,7 +5687,7 @@
 	)
 	(text "To Pressure Sensor\nG1/4 Pressure Transducer Sensor 5V (0-30 PSI)\nhttps://a.co/d/0b1jqJ06"
 		(exclude_from_sim no)
-		(at 244.348 43.688 0)
+		(at 244.475 43.815 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5784,6 +5784,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49ad6b5f-6fbb-4d17-89c1-f0c7e99a0e23")
+	)
+	(junction
+		(at 159.385 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4be1c338-cc81-4afb-ac2b-9d498a3207d1")
+	)
+	(junction
+		(at 41.275 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "512b4bfc-7637-413f-a9e4-80dde12f7da2")
 	)
 	(junction
 		(at 37.465 73.66)
@@ -6026,20 +6038,136 @@
 		(uuid "fea8c035-e220-4a78-a728-308c58c7fcf2")
 	)
 	(no_connect
+		(at 89.535 87.63)
+		(uuid "0548dd24-c170-4076-9006-2e8ae44da968")
+	)
+	(no_connect
 		(at 234.315 135.89)
 		(uuid "0599541f-0d24-46ec-b6ca-324c09128e80")
+	)
+	(no_connect
+		(at 89.535 74.93)
+		(uuid "0b895106-893c-4c3d-8a98-ccf5e334e333")
+	)
+	(no_connect
+		(at 53.975 80.01)
+		(uuid "3afc3d87-c83f-453d-b35b-f24947f473b4")
+	)
+	(no_connect
+		(at 53.975 72.39)
+		(uuid "45087a56-2448-47e0-86b0-98e7e2e32700")
+	)
+	(no_connect
+		(at 89.535 77.47)
+		(uuid "461e440b-3a9c-4968-a43c-4a00ff11af25")
 	)
 	(no_connect
 		(at 213.995 125.73)
 		(uuid "4c3ece5b-d1a4-4b06-b33d-7f8a22c4d622")
 	)
 	(no_connect
+		(at 89.535 80.01)
+		(uuid "5078b8cf-fcf0-4e1a-98f4-acd5d2c0f7e8")
+	)
+	(no_connect
+		(at 89.535 130.81)
+		(uuid "51cc28f7-db73-4e08-befe-1649169e915d")
+	)
+	(no_connect
+		(at 89.535 62.23)
+		(uuid "6161c7f1-3bb3-44fd-8ff2-1d5990e2bea3")
+	)
+	(no_connect
 		(at 234.315 133.35)
 		(uuid "6427da99-5eb4-4a8f-87cf-9118c970ccc5")
 	)
 	(no_connect
+		(at 89.535 97.79)
+		(uuid "6bf67c89-2969-470a-9bcc-ab5ef08f6f27")
+	)
+	(no_connect
 		(at 151.765 132.715)
 		(uuid "6c1da2bc-0bfb-4399-a513-3ad2e2d8c59a")
+	)
+	(no_connect
+		(at 89.535 64.77)
+		(uuid "70e60afd-0c84-4133-9142-aaedf9264f1a")
+	)
+	(no_connect
+		(at 53.975 92.71)
+		(uuid "75880c4e-6119-4c75-a02b-f0e478ea49b0")
+	)
+	(no_connect
+		(at 89.535 123.19)
+		(uuid "7b699c3b-5215-4611-9a7c-a494184c0078")
+	)
+	(no_connect
+		(at 53.975 87.63)
+		(uuid "7f3db105-ffc7-44fb-abdd-74392c114178")
+	)
+	(no_connect
+		(at 89.535 59.69)
+		(uuid "83917b1c-046b-429c-9951-b2c62c5a0622")
+	)
+	(no_connect
+		(at 89.535 72.39)
+		(uuid "841e1765-474f-455b-bfdf-9cf8d5178dbf")
+	)
+	(no_connect
+		(at 53.975 90.17)
+		(uuid "8e662664-bf04-4d3e-ba34-a2b55c4497f2")
+	)
+	(no_connect
+		(at 89.535 69.85)
+		(uuid "98b7a829-74a0-4934-bf25-8a2bacfd17b2")
+	)
+	(no_connect
+		(at 89.535 113.03)
+		(uuid "9b8be633-4295-4c84-ba2f-c0df0003aa92")
+	)
+	(no_connect
+		(at 53.975 77.47)
+		(uuid "b096f2e3-aea3-4bc1-a9e9-c1812679dd71")
+	)
+	(no_connect
+		(at 89.535 105.41)
+		(uuid "b3b3cd90-56f7-4bed-971e-617f3ca9683e")
+	)
+	(no_connect
+		(at 53.975 95.25)
+		(uuid "b5a68bdb-08e0-4e16-8f9a-85ebfcee8a0a")
+	)
+	(no_connect
+		(at 89.535 100.33)
+		(uuid "b5e0bfcc-d3dd-4490-87fa-af2a4f3a79ce")
+	)
+	(no_connect
+		(at 89.535 54.61)
+		(uuid "ba7b82b0-5901-42c5-97b0-bc61c2754b42")
+	)
+	(no_connect
+		(at 89.535 57.15)
+		(uuid "c2645151-d464-418d-9446-a17d7aac7e92")
+	)
+	(no_connect
+		(at 53.975 74.93)
+		(uuid "c30aa973-5e84-485b-bbd8-04569ff1e0d0")
+	)
+	(no_connect
+		(at 89.535 95.25)
+		(uuid "c9fa1f6d-6765-43b8-bd72-135bec9e1153")
+	)
+	(no_connect
+		(at 53.975 85.09)
+		(uuid "d118acf2-6dc3-4f91-9efc-b637ac674f45")
+	)
+	(no_connect
+		(at 89.535 102.87)
+		(uuid "d79c6c2a-7ca6-4b7b-b925-e7f32228549d")
+	)
+	(no_connect
+		(at 89.535 115.57)
+		(uuid "e8d1610d-abc8-4a35-9d8f-0c26e0e82b5c")
 	)
 	(no_connect
 		(at 234.315 125.73)
@@ -6491,6 +6619,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 57.15) (xy 41.275 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3515f80e-a24b-4dc8-9bf3-6b8d2bd2665c")
+	)
+	(wire
+		(pts
 			(xy 244.475 74.295) (xy 244.475 81.915)
 		)
 		(stroke
@@ -6798,6 +6936,16 @@
 			(type default)
 		)
 		(uuid "5d3dc317-8b4d-4b8c-92dc-b1d8cbf0225f")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 48.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f58527c-4de2-42b7-beea-d1cf8a2cd6ba")
 	)
 	(wire
 		(pts
@@ -7111,7 +7259,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.465 59.69) (xy 36.195 59.69)
+			(xy 28.575 57.15) (xy 27.305 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7201,7 +7349,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 59.69) (xy 43.18 59.69)
+			(xy 32.385 57.15) (xy 41.275 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7458,6 +7606,16 @@
 			(type default)
 		)
 		(uuid "b64241ef-69d3-4ce9-b67a-02d6d190eb7f")
+	)
+	(wire
+		(pts
+			(xy 159.385 58.42) (xy 159.385 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76f6d1b-ccc5-489b-b54b-93b90f6fd50d")
 	)
 	(wire
 		(pts
@@ -8011,7 +8169,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.195 59.69) (xy 36.195 49.53)
+			(xy 27.305 57.15) (xy 27.305 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8387,6 +8545,50 @@
 				)
 			)
 		)
+		(property "Alt MPN" "9774040151R"
+			(at 194.945 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 194.945 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 194.945 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 194.945 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "220f8947-3d66-45c0-9598-e6a75d62c1e0")
 		)
@@ -8468,6 +8670,39 @@
 		)
 		(property "LCSC" "C14663"
 			(at 187.325 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 187.325 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 187.325 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 187.325 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8727,6 +8962,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 99.06 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 99.06 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 99.06 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "559bc44e-1039-4af5-bbdf-77f7bcb0e7c8")
 		)
@@ -8808,8 +9076,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C113797"
+		(property "LCSC" "C1658"
 			(at 27.94 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 27.94 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 27.94 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8900,8 +9201,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C116677"
+		(property "LCSC" "C25804"
 			(at 83.185 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 83.185 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 83.185 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 83.185 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9082,6 +9416,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 103.505 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 103.505 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 103.505 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d09258a4-7024-444e-ad5f-97755c7abde3")
 		)
@@ -9164,8 +9531,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C105580"
+		(property "LCSC" "C23186"
 			(at 228.6 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 228.6 73.025 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 228.6 73.025 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 228.6 73.025 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9335,7 +9735,40 @@
 				)
 			)
 		)
-		(property "LCSC" "C116677"
+		(property "LCSC" "C25804"
+			(at 51.435 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 51.435 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 51.435 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 51.435 48.895 0)
 			(hide yes)
 			(show_name no)
@@ -9496,6 +9929,39 @@
 			)
 		)
 		(property "Description" "2Kb (256x8) I2C Serial EEPROM, 1.6-5.5V, SOIC-8"
+			(at 141.605 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 141.605 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 141.605 130.175 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 141.605 130.175 0)
 			(hide yes)
 			(show_name no)
@@ -9762,8 +10228,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C21189"
 			(at 259.715 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 259.715 144.145 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 259.715 144.145 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 259.715 144.145 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9783,84 +10282,6 @@
 			(project "RocketPressurePID"
 				(path "/7b858a08-909d-419d-8632-8c6bf72c69f5"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 252.73 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ed7541e-dddd-47f0-bf87-3f4029a05560")
-		(property "Reference" "#PWR02"
-			(at 252.73 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 252.73 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eee95a8e-2fef-449d-9295-c9d471be14b6")
-		)
-		(instances
-			(project "RocketPressurePID"
-				(path "/7b858a08-909d-419d-8632-8c6bf72c69f5"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9933,8 +10354,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C113797"
+		(property "LCSC" "C1658"
 			(at 27.94 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 27.94 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 27.94 73.66 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10025,6 +10479,39 @@
 			)
 		)
 		(property "LCSC" "C2765186"
+			(at 144.145 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 144.145 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 144.145 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 144.145 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10232,7 +10719,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C88984"
+		(property "LCSC" "C1002"
 			(at 188.595 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10299,6 +10786,39 @@
 			)
 		)
 		(property "alt-LCSC" ""
+			(at 189.865 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 189.865 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 189.865 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 189.865 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10561,6 +11081,50 @@
 				)
 			)
 		)
+		(property "Alt MPN" "9774040151R"
+			(at 179.705 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 179.705 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 179.705 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 179.705 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40ecb947-ae21-4304-a318-230e9d95e5de")
 		)
@@ -10719,8 +11283,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C105580"
+		(property "LCSC" "C23186"
 			(at 159.385 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 159.385 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 159.385 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 159.385 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10803,6 +11400,50 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 64KB flash, 8KB RAM, 64 MHz, 2.0-3.6V, 43 GPIO, LQFP48"
+			(at 71.755 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C529329"
+			(at 71.755 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 71.755 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 71.755 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 71.755 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11032,8 +11673,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C21189"
 			(at 259.715 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 259.715 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 259.715 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 259.715 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11126,6 +11800,50 @@
 			)
 		)
 		(property "LCSC" "C2916324"
+			(at 187.325 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "9774040151R"
+			(at 187.325 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 187.325 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 187.325 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 187.325 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11382,6 +12100,50 @@
 				)
 			)
 		)
+		(property "Alt MPN" ""
+			(at 202.565 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 202.565 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 202.565 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 202.565 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1ea31c31-dc2c-45a2-9368-03387d7d4f03")
 		)
@@ -11550,6 +12312,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 189.865 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 189.865 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 189.865 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92e94859-6045-4886-9abf-05dbcaa0564a")
 		)
@@ -11573,7 +12368,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 36.195 49.53 0)
+		(at 27.305 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11584,7 +12379,7 @@
 		(fields_autoplaced yes)
 		(uuid "44275543-7eb6-4cf5-953d-96d5df300691")
 		(property "Reference" "#PWR045"
-			(at 36.195 53.34 0)
+			(at 27.305 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11595,7 +12390,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 36.195 44.45 0)
+			(at 27.305 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11605,7 +12400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.195 49.53 0)
+			(at 27.305 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11616,7 +12411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.195 49.53 0)
+			(at 27.305 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11627,7 +12422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 36.195 49.53 0)
+			(at 27.305 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11716,6 +12511,39 @@
 			)
 		)
 		(property "LCSC" "C455116"
+			(at 149.86 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 149.86 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 149.86 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 149.86 184.785 0)
 			(hide yes)
 			(show_name no)
@@ -11972,6 +12800,39 @@
 		)
 		(property "LCSC" "C14663"
 			(at 83.185 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 83.185 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 83.185 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 83.185 185.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12308,6 +13169,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 184.15 64.135 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 184.15 64.135 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 184.15 64.135 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3427fb75-90e2-47e5-b123-eb152f685d3f")
 		)
@@ -12479,6 +13373,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 221.615 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 221.615 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 221.615 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "14b673d9-e436-4174-90f0-cbf4cb444fc7")
 		)
@@ -12560,8 +13487,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C21189"
 			(at 264.16 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 264.16 149.225 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 264.16 149.225 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 264.16 149.225 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13292,6 +14252,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 241.3 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 241.3 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 241.3 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c66b9aee-52ec-4c35-af37-e2d79bafb15c")
 		)
@@ -13532,8 +14525,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C95177"
+		(property "LCSC" "C21189"
 			(at 264.16 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 264.16 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 264.16 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 264.16 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13714,6 +14740,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 247.65 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 247.65 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 247.65 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87897538-a201-43aa-8a7c-8f5dd3c25326")
 		)
@@ -13802,6 +14861,84 @@
 			(project "RocketPressurePID"
 				(path "/7b858a08-909d-419d-8632-8c6bf72c69f5"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 159.385 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a1bd490-85e6-4ef6-9ac0-e5e2c0f8b3ba")
+		(property "Reference" "#FLG04"
+			(at 159.385 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 159.385 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.385 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 159.385 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07db94df-f471-479a-859c-bddbe91346e3")
+		)
+		(instances
+			(project "RocketPressurePID"
+				(path "/7b858a08-909d-419d-8632-8c6bf72c69f5"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -13962,7 +15099,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "DEALON"
+		(property "Field5" ""
 			(at 224.155 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13973,7 +15110,7 @@
 				)
 			)
 		)
-		(property "Part Number" "DW127R-22-14-23"
+		(property "KLC_S3.3" ""
 			(at 224.155 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13984,40 +15121,7 @@
 				)
 			)
 		)
-		(property "Notes" ""
-			(at 224.155 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pinmap" ""
-			(at 224.155 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Powers" ""
-			(at 224.155 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "alt-LCSC" ""
+		(property "KLC_S4.1" ""
 			(at 224.155 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -14314,6 +15418,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 249.555 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 249.555 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 249.555 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aeaea1d7-4bf5-48b0-87a2-641e53620b30")
 		)
@@ -14419,7 +15556,7 @@
 	)
 	(symbol
 		(lib_id "0_RLC:BEAD_sr")
-		(at 41.275 59.69 0)
+		(at 32.385 57.15 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14430,7 +15567,7 @@
 		(dnp no)
 		(uuid "aede4677-6334-4df7-b3e7-0d0fc8c1e441")
 		(property "Reference" "FB2"
-			(at 39.37 58.42 0)
+			(at 30.48 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14440,7 +15577,7 @@
 			)
 		)
 		(property "Value" "BLM18PG330SN1D"
-			(at 41.275 63.5 0)
+			(at 32.385 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14451,7 +15588,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 40.005 53.34 0)
+			(at 31.115 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14462,7 +15599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.735 52.07 0)
+			(at 29.845 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14473,7 +15610,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.148 55.753 0)
+			(at 32.258 53.213 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14484,7 +15621,7 @@
 			)
 		)
 		(property "Part Number" "BLM18PG330SN1D"
-			(at 34.925 52.07 0)
+			(at 26.035 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14494,8 +15631,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C88984"
-			(at 40.005 55.88 0)
+		(property "LCSC" "C1002"
+			(at 31.115 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14506,7 +15643,7 @@
 			)
 		)
 		(property "Descriptions" "25mΩ ±25% 33Ω@100MHz 0603 Ferrite Beads ROHS"
-			(at 41.275 59.69 0)
+			(at 32.385 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14517,7 +15654,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 41.275 59.69 0)
+			(at 32.385 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14528,7 +15665,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 41.275 59.69 0)
+			(at 32.385 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14539,7 +15676,7 @@
 			)
 		)
 		(property "Pinmap" ""
-			(at 41.275 59.69 0)
+			(at 32.385 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14550,7 +15687,7 @@
 			)
 		)
 		(property "Powers" ""
-			(at 41.275 59.69 0)
+			(at 32.385 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14561,7 +15698,40 @@
 			)
 		)
 		(property "alt-LCSC" ""
-			(at 41.275 59.69 0)
+			(at 32.385 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 32.385 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 32.385 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 32.385 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14977,6 +16147,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 174.625 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 174.625 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 174.625 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c86cb98d-a360-45bc-9134-5b5d7d11af5f")
 		)
@@ -15232,7 +16435,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 45.72 59.69 270)
+		(at 41.275 59.69 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15242,7 +16445,7 @@
 		(dnp no)
 		(uuid "bdb83b8e-9ac4-41cf-9139-5c184c762a98")
 		(property "Reference" "C8"
-			(at 43.942 61.468 90)
+			(at 38.608 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15253,7 +16456,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 52.832 61.468 90)
+			(at 44.704 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15264,7 +16467,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 45.72 59.69 0)
+			(at 41.275 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15275,7 +16478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 59.69 0)
+			(at 41.275 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15286,7 +16489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 59.69 0)
+			(at 41.275 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15297,7 +16500,40 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 45.72 59.69 0)
+			(at 41.275 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 41.275 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 41.275 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 41.275 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15467,8 +16703,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C105580"
+		(property "LCSC" "C23186"
 			(at 163.195 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 163.195 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 163.195 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 163.195 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15559,8 +16828,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C116677"
+		(property "LCSC" "C25804"
 			(at 137.795 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 137.795 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 137.795 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 137.795 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15652,8 +16954,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C116677"
+		(property "LCSC" "C25804"
 			(at 228.6 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 228.6 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 228.6 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 228.6 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15834,6 +17169,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 238.125 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 238.125 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 238.125 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2b74b945-87b8-47bc-943e-27b0f2826ef3")
 		)
@@ -15916,8 +17284,41 @@
 				)
 			)
 		)
-		(property "LCSC" "C2762594"
+		(property "LCSC" "C59461"
 			(at 192.405 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 192.405 64.135 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 192.405 64.135 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 192.405 64.135 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15952,10 +17353,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d6f67aa2-4c5d-48ae-b821-192c6b359a3d")
 		(property "Reference" "D1"
-			(at 167.64 52.705 0)
+			(at 167.386 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15964,7 +17364,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG2010ER,115"
+		(property "Value" ""
 			(at 167.64 55.245 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16007,7 +17407,40 @@
 				)
 			)
 		)
-		(property "LCSC" "C82288"
+		(property "LCSC" "C8598"
+			(at 167.64 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 167.64 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 167.64 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 167.64 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16028,84 +17461,6 @@
 			(project "RocketPressurePID"
 				(path "/7b858a08-909d-419d-8632-8c6bf72c69f5"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 252.73 22.86 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d76d8d54-c4f3-4490-b791-6fb335eb22e9")
-		(property "Reference" "#FLG02"
-			(at 252.73 24.765 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 252.73 27.305 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 252.73 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0820d0a7-ccd7-414a-89f7-54f6a210c30e")
-		)
-		(instances
-			(project "RocketPressurePID"
-				(path "/7b858a08-909d-419d-8632-8c6bf72c69f5"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -16268,6 +17623,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 26.67 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 26.67 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 26.67 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "181a6746-c38a-4e5b-9ae8-1a50d3815ab7")
 		)
@@ -16371,6 +17759,17 @@
 		)
 		(property "LCSC" "C2682774"
 			(at 37.465 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 37.465 69.215 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16555,6 +17954,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 39.37 177.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 39.37 177.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 39.37 177.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7dedbd49-26ac-4c7d-9935-0424365cbe16")
 		)
@@ -16719,6 +18151,39 @@
 			)
 		)
 		(property "LCSC" "C14663"
+			(at 52.705 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 52.705 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 52.705 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 52.705 179.705 0)
 			(hide yes)
 			(show_name no)
@@ -16900,6 +18365,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 233.045 89.535 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 233.045 89.535 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 233.045 89.535 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3aa0ead6-4693-4db8-8394-a9951843d16d")
 		)
@@ -16981,6 +18479,39 @@
 			)
 		)
 		(property "LCSC" "C455116"
+			(at 97.155 183.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 97.155 183.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 97.155 183.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 97.155 183.515 0)
 			(hide yes)
 			(show_name no)
@@ -17080,6 +18611,39 @@
 		)
 		(property "LCSC" "C14663"
 			(at 131.445 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 131.445 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 131.445 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 131.445 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17260,6 +18824,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 244.475 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 244.475 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 244.475 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6df9754-87a2-45f8-883c-deaa486d26c8")
 		)
@@ -17343,6 +18940,39 @@
 		)
 		(property "LCSC" "C14663"
 			(at 94.615 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 94.615 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 94.615 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 94.615 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17522,6 +19152,39 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 137.795 186.055 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 137.795 186.055 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 137.795 186.055 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1effa114-5ceb-49e5-a25a-7bd0ebe99b50")
 		)
@@ -17532,6 +19195,86 @@
 			(project "RocketPressurePID"
 				(path "/7b858a08-909d-419d-8632-8c6bf72c69f5"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.275 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f979c774-53f9-4078-be2f-234cf9bd1506")
+		(property "Reference" "#PWR055"
+			(at 47.625 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 62.2301 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.275 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.275 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.275 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "094ab86c-8f22-4694-b5d0-c47b6ce59312")
+		)
+		(instances
+			(project "RocketPressurePID"
+				(path "/7b858a08-909d-419d-8632-8c6bf72c69f5"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -17683,6 +19426,39 @@
 			)
 		)
 		(property "alt-LCSC" ""
+			(at 250.825 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 250.825 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 250.825 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 250.825 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -17853,6 +19629,39 @@
 			)
 		)
 		(property "alt-LCSC" ""
+			(at 247.015 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 247.015 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 247.015 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 247.015 86.995 0)
 			(hide yes)
 			(show_name no)
