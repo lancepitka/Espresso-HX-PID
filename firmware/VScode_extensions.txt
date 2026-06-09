@@ -1,0 +1,25 @@
+Installed Extensions:
+
+stm32CubeIDE
+stm32CubeCore
+Serial Monitor
+RTOS Views
+pythonPylance
+Markdown PReview Mermaid Support
+Git Graph
+CMake Tools
+Clang-Format
+stm32cube clangd
+C/C++
+C/C++ Extension Pack
+C/C++ Themes
+
+
+//winget install -e --id LLVM.LLVM
+winget install --id=LLVM.ClangFormat -e
+
+//stm32-for-vscode
+
+CMake Tools
+CMake
+CMake Language Support

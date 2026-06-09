@@ -1,0 +1,13 @@
+# This format file is from ThreadX https://github.com/eclipse-threadx/getting-started/blob/master/.clang-format
+BasedOnStyle:  Microsoft
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: DontAlign
+AlignConsecutiveMacros: true
+AlignConsecutiveAssignments: true
+AlwaysBreakAfterInitializers: true
+IndentCaseLabels: true
+PointerAlignment: Left
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterAssignment: true

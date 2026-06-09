@@ -1,0 +1,17 @@
+{
+  "files.watcherExclude": {
+    "build/**": true
+  },
+  "search.exclude": {
+    "build/**": true
+  },
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/Debug/compile_commands.json",
+  "STM32VSCodeExtension.cubeCLT.path": "C:/ST/STM32CubeCLT_1.19.0",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "cmake.buildToolArgs": ["-j0"],
+  "cmake.configureOnOpen": true,
+  "cmake.deleteBuildDirOnCleanConfigure": true,
+  "editor.formatOnSave": true,
+}
