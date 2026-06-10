@@ -47,6 +47,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Core/Src/app/app.c
     Core/Src/app/util/aema.c
     Core/Src/app/util/logging.c
+    Core/Src/app/util/timer.c
 )
 
 # Add include paths
