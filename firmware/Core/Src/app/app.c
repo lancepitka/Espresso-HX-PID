@@ -6,6 +6,7 @@
 #include "app.h"
 #include "statuses.h"
 #include "util/logging.h"
+#include "util/timer.h"
 
 static struct sys_hal_timer_hdlr_t* tmrHdlr;
 
@@ -19,8 +20,10 @@ void app(void)
     printf("      Espresso Pressure Controller \r\n");
     printf("=============================================\r\n\r\n");
 
-    /* Init drivers */
+    /* Init Drivers */
     tmrHdlr = _sys_init_timer_hdlr();
+
+    /* Init App Controllers */
 
     while (1)
     {
