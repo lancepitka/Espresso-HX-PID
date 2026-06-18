@@ -69,3 +69,14 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
     # Add user defined libraries
 )
+
+target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE
+    -Werror=implicit-function-declaration # Treat implicit function declarations as errors to catch missing prototypes and potential typos in function names
+    -Werror=missing-field-initializers # Treat missing struct initializers as errors to ensure all fields are explicitly initialized
+)
+
+# Convert output to hex and binary
+add_custom_command(TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
+    COMMAND ${CMAKE_OBJCOPY} -O ihex $<TARGET_FILE:${CMAKE_PROJECT_NAME}> ${CMAKE_PROJECT_NAME}.hex
+    COMMAND ${CMAKE_OBJCOPY} -O binary $<TARGET_FILE:${CMAKE_PROJECT_NAME}> ${CMAKE_PROJECT_NAME}.bin
+)
