@@ -12,6 +12,7 @@
 typedef struct adc_hdlr_t
 {
     void (*lp)(void);
+    uint32_t (*read)(void); /* Read ADC value in millivolts */
 } adc_hdlr_t;
 
 adc_hdlr_t* app_adc_init(struct sys_hal_timer_hdlr_t* _tmr);

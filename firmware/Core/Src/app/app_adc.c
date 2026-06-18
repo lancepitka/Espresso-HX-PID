@@ -9,18 +9,22 @@
 #include "util/logging.h"
 
 static void adc_lp(void);
+static uint32_t adc_read(void);
 
 struct
 {
     struct sys_hal_timer_hdlr_t* tmr;
     struct hal_tick_timer_t mlTmr;
     enum sys_dev_work_state_t ws;
+    uint32_t voltage_mv;
 } adc_dev = {
-    .ws = SYS_DEV_WORK_INIT,
+    .ws         = SYS_DEV_WORK_INIT,
+    .voltage_mv = 0,
 };
 
 static struct adc_hdlr_t adc_hdlr = {
-    .lp = adc_lp,
+    .lp   = adc_lp,
+    .read = adc_read,
 };
 
 adc_hdlr_t* app_adc_init(struct sys_hal_timer_hdlr_t* _tmr)
@@ -72,13 +76,13 @@ static uint32_t adc_read_voltage(void)
 
 static void adc_process(void)
 {
-    uint32_t adcmv = adc_read_voltage();
-    LOG_INFO("ADC", "ADC Voltage: %lu mV", adcmv);
+    adc_dev.voltage_mv = adc_read_voltage();
+    // LOG_INFO("ADC", "ADC Voltage: %lu mV", adc_dev.voltage_mv);
 }
 
 static void adc_lp(void)
 {
-    if (adc_dev.tmr->tm(&adc_dev.mlTmr, APP_SCHD_1000MS) == 0)
+    if (adc_dev.tmr->tm(&adc_dev.mlTmr, APP_SCHD_25MS) == 0)
     {
         switch (adc_dev.ws)
         {
@@ -96,4 +100,9 @@ static void adc_lp(void)
                 break;
         }
     }
+}
+
+static uint32_t adc_read(void)
+{
+    return adc_dev.voltage_mv;
 }
