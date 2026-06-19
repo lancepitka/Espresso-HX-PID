@@ -6,7 +6,10 @@
 #include "app_adc.h"
 #include "adc.h"
 #include "cmn.h"
+#include "util/aema.h"
 #include "util/logging.h"
+
+#define ADC_HDLR &hadc1
 
 static void adc_lp(void);
 static uint32_t adc_read(void);
@@ -16,6 +19,7 @@ struct
     struct sys_hal_timer_hdlr_t* tmr;
     struct hal_tick_timer_t mlTmr;
     enum sys_dev_work_state_t ws;
+    struct AdaptiveEMA_t adcEma;
     uint32_t voltage_mv;
 } adc_dev = {
     .ws         = SYS_DEV_WORK_INIT,
@@ -35,6 +39,7 @@ adc_hdlr_t* app_adc_init(struct sys_hal_timer_hdlr_t* _tmr)
     }
 
     adc_dev.tmr = _tmr;
+    AdaptiveEMA_Init(&adc_dev.adcEma, 0.5f, 0.8f, 5.0f);
 
     adc_dev.tmr->start(&adc_dev.mlTmr);
 
@@ -43,9 +48,9 @@ adc_hdlr_t* app_adc_init(struct sys_hal_timer_hdlr_t* _tmr)
 
 static uint32_t adc_read_raw(void)
 {
-    if (HAL_ADC_PollForConversion(&hadc1, 10) == HAL_OK)
+    if (HAL_ADC_PollForConversion(ADC_HDLR, 10) == HAL_OK)
     {
-        return HAL_ADC_GetValue(&hadc1);
+        return HAL_ADC_GetValue(ADC_HDLR);
     }
     else
     {
@@ -76,7 +81,7 @@ static uint32_t adc_read_voltage(void)
 
 static void adc_process(void)
 {
-    adc_dev.voltage_mv = adc_read_voltage();
+    adc_dev.voltage_mv = (uint32_t)AdaptiveEMA_Update(&adc_dev.adcEma, (float)adc_read_voltage());
     // LOG_INFO("ADC", "ADC Voltage: %lu mV", adc_dev.voltage_mv);
 }
 
@@ -87,7 +92,7 @@ static void adc_lp(void)
         switch (adc_dev.ws)
         {
             case SYS_DEV_WORK_INIT:
-                HAL_ADC_Start(&hadc1);
+                HAL_ADC_Start(ADC_HDLR);
                 adc_dev.ws = SYS_DEV_WORK_OPS;
                 break;
 
