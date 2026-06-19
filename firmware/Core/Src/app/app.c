@@ -5,12 +5,14 @@
 
 #include "app.h"
 #include "app_adc.h"
+#include "button.h"
 #include "statuses.h"
 #include "util/logging.h"
 #include "util/timer.h"
 
 static struct sys_hal_timer_hdlr_t* tmrHdlr;
 static struct adc_hdlr_t* adcHdlr;
+static struct button_hdlr_t* buttonHdlr;
 
 void app(void)
 {
@@ -27,6 +29,7 @@ void app(void)
     /* Init Drivers */
     stat = (tmrHdlr = _sys_init_timer_hdlr()) == NULL;
     stat |= (adcHdlr = app_adc_init(tmrHdlr)) == NULL;
+    stat |= (buttonHdlr = button_init(tmrHdlr)) == NULL;
 
     if (stat)
     {
@@ -36,7 +39,7 @@ void app(void)
 
     while (1)
     {
-
         adcHdlr->lp();
+        buttonHdlr->lp();
     }
 }
