@@ -47,9 +47,13 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     Core/Src/app/app.c
     Core/Src/app/app_adc.c
     Core/Src/app/button.c
+    Core/Src/app/display.c
     Core/Src/app/util/aema.c
     Core/Src/app/util/logging.c
     Core/Src/app/util/timer.c
+
+    Core/Src/app/sh1106/SH1106.c
+    Core/Src/app/sh1106/fonts.c
 )
 
 # Add include paths
