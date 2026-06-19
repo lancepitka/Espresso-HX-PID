@@ -674,7 +674,7 @@
           "group_by": false,
           "label": "Alt MPN",
           "name": "Alt MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -737,7 +737,7 @@
         "uuid": "7b858a08-909d-419d-8632-8c6bf72c69f5"
       }
     ],
-    "used_designators": "#FLG4,R9-12,#PWR55",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
