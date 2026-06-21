@@ -44,12 +44,6 @@ display_hdlr_t* display_init(struct sys_hal_timer_hdlr_t* _tmr, I2C_HandleTypeDe
     display_dev.tmr     = _tmr;
     display_dev.i2cHdlr = _i2c;
 
-    if (SH1106_Init(display_dev.i2cHdlr) == 0)
-    {
-        LOG_ERROR("DISPLAY", "Failed to initialize SH1106 display");
-        return NULL;
-    }
-
     display_dev.tmr->start(&display_dev.mlTmr);
 
     return &display_hdlr;
